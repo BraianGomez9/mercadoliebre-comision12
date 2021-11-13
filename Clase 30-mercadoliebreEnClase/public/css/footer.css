@@ -1,0 +1,56 @@
+/* FOOTER */
+footer {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer article {
+margin-bottom: 40px;
+text-align: center;
+}
+
+
+footer i {
+    color: #1259c3;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+footer article.footer.article h5 {
+    font-size: 16px;
+}
+
+footer article.footer.article p {
+    font-size: 12px;
+    width: 77%;
+}
+
+footer .copy {
+    color: #666;
+    font-size: 12px
+}
+
+@media (min-width: 1028px) {
+    footer{
+        display: flex;
+        flex-direction: row;
+    }
+    footer article{
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    footer .footer.arcticle {
+        width: 50%;
+    }
+    
+
+    footer i:hover{
+        color: green;;
+        transition: 1s ;
+        
+    }
+
+}

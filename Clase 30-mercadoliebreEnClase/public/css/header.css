@@ -1,0 +1,264 @@
+/* HEADER*/
+
+header {
+    background-color: var(--amarillo);
+    font-size: var(--paragraph);
+    padding-bottom: 10px;
+}
+
+ .burger-menu {
+    background-color: var(--celeste);
+    color: #fff;
+    width: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto 0;
+}
+
+ .logo {
+    width: 130px;
+    margin-left: 25px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    
+}
+
+/* search-bar */
+
+
+
+.flex .alinear {
+    display: flex;
+    justify-content: space-between;
+   padding-top: 10px;
+   align-items: center;
+    }
+    
+ .flex .alinear .logo{
+    width: 50%;
+    
+}
+
+.flex .alinear input{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.flex .alinear button{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.flex .alinear p{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* Quota */
+
+.quota {
+    text-align: center;
+    margin: 10px 0 20px;
+
+}
+
+/* Nav */
+
+ nav ul#top-list {
+    margin-bottom: 25px;
+    display: none;
+}
+
+ nav ul#ingresa{
+    display: none;
+}
+/* END HEADER */
+
+
+@media (min-width: 770px) {
+
+    
+    header .logo {
+        width: 130px;
+        margin-left: 25px;
+        padding-top: 25px;
+        margin-bottom: 10px;
+        display: flex;
+        
+    }
+    
+    /* search-bar */
+    
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .flex .alinear {
+        display: flex;
+        justify-content: space-evenly;
+       padding-top: 10px;
+       align-items: center;
+       width: 70%;
+        }
+        
+     .flex .alinear .logo{
+       width: 50%;
+        
+    }
+    
+    
+    .flex .alinear input{
+        border-radius: 0%;
+        border: solid 1px black;
+        
+        width: 90%;
+        height: auto;
+    }
+
+    .flex .alinear button{
+        width: 7%;
+        border-radius: 0%;
+        border: solid 1px black;
+        height: auto;
+    }
+    
+    .flex .alinear p{
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-top: 50px;
+    }
+    
+    /* Quota */
+    
+    .quota {
+        text-align: center;
+        margin: 30px 0 20px;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Nav */
+    
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  margin-top: 20px;
+margin-bottom: -20px ;
+}
+
+    nav ul#top-list {
+        
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+    }
+    
+     nav ul#ingresa{
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+    }  
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+
+
+
+
+@media (min-width: 1028px) {
+    header {
+        background-color: var(--amarillo);
+        font-size: var(--paragraph);
+        padding-bottom: 10px;
+    }
+    
+    header .burger-menu {
+        background-color: var(--celeste);
+        color: #fff;
+        width: 15px;
+        padding: 7px;
+        border-radius: 5px;
+        text-align: center;
+        margin: 10px auto 0;
+    }
+    
+    header .logo {
+        width: 130px;
+        margin-left: 25px;
+        padding-top: 25px;
+        margin-bottom: 10px;
+        display: flex;
+        
+    }
+    
+    /* search-bar */
+    
+    
+    
+    .flex .alinear {
+        display: flex;
+        justify-content: space-evenly;
+       padding-top: 10px;
+       align-items: center;
+        }
+        
+     .flex .alinear .logo{
+        width: 50%;
+        
+    }
+    
+    .flex .alinear input{
+        width: 90%;
+        height: auto;
+    }
+    
+    .flex .alinear button{
+        width: 7%;
+        border-radius: 0%;
+        border: solid 1px black;
+        height: auto;
+    }
+    
+    .flex .alinear p{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    /* Quota */
+    
+    header .quota {
+        text-align: center;
+        margin: 10px 0 20px;
+    
+    }
+    
+    /* Nav */
+    
+    header nav ul#top-list {
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    
+    header nav ul#ingresa{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,170 @@
+/* Banner*/
+
+.home.banner {
+    display: none;
+}
+
+ 
+/* MAIN */
+
+.home {
+    width: 90%;
+    margin: 0 auto;  
+}
+
+/* SECTION */
+
+.home .section-title {
+    margin: 25px 0;
+    color: var(--gris-oscuro);
+}
+
+/* LOGO */
+
+
+
+
+.home .card {
+    background-color: white;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.home .card .card-content {
+    border-top: 1px solid var(--gris-claro);
+    padding: 15px;
+    position: relative;
+}
+
+.home .card .card-content .icon-truck {
+    border: 1px solid var(--verde);
+    border-radius: 50%;
+    width: fit-content;
+    width: -moz-fit-content; 
+    padding: 5px;
+    position: absolute;
+    top: -15px;
+    right: 20px;
+}
+
+.home .card .card-content .icon-truck i {
+    color: var(--verde);
+    font-size: 16px;
+}
+
+.product-info {
+    display: flex;
+    
+    justify-content: space-evenly;
+    padding: 10px 0 10px 10px
+}
+
+
+    
+.descripcion{
+padding: 10px 0 10px 10px
+}
+
+.product-info p:nth-child(1){
+    flex-grow: 0.3;
+}
+
+.product-info p:nth-child(2){
+    color: var(--verde);
+    font-size: 14px;
+    flex-grow: 0.7;    
+}
+
+.home .card .card-content .product-name {
+    display: none;
+    color: var(--gris-oscuro);
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 10px 0 10px 10px
+}
+
+
+
+
+
+
+
+
+/* Media queries*/
+/* desktop */
+@media (min-width: 770px) {
+    .home .banner {
+        display: block;
+    }
+    /*.home{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }*/
+    .home .card-local{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+       justify-content: space-between;
+    }
+
+    .home .card{
+        width: 45%;
+        box-shadow: none;
+    }
+    
+    .home .card:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: 1.5s;
+    }
+   
+    .home .sales-buy{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+       justify-content: space-between;
+    }
+    footer{
+        display: flex;
+        
+    }
+}
+
+@media (min-width: 1028px)  {
+    .home .card-local{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+       justify-content: space-between;
+    }
+
+    .home .card{
+        width: 20%;
+    }
+    .home .sales-buy{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+       justify-content: space-between;
+    }
+
+    .descripcion{
+     opacity: 0%;
+    }   
+
+    .descripcion:hover {
+   animation: descripcion 3s;
+    }
+
+    @keyframes descripcion{
+     0% {opacity: 0%;}
+     75% {opacity: 75%;}
+     100% {opacity: 100%;}
+    }
+
+    .card-content .icon-truck i:hover{
+        transform: rotate(-90deg);
+        transition: 1.5s ;
+    }
+
+}

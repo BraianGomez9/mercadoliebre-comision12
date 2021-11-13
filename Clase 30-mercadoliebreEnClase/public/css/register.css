@@ -1,0 +1,136 @@
+.register-main{
+    background-color: var(--gris-claro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+   margin-bottom: 70px;
+   width: 100%;
+}
+
+.register-main .register-box{
+margin-bottom: 50px;
+width: 70%;
+}
+
+.register-main .register-box input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.register-main .register-box input .email{
+background-color: blue;
+
+}
+.register-main .register-box-2{
+    margin-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    }
+
+    .register-main .register-box-2 input{
+        border-radius: 50%;
+        margin-top: 5px;
+    }
+
+    .register-main .register-box-2 label{
+        padding-left: 30px;
+        padding-bottom: 40px;
+    }
+
+
+
+
+.register-main  h2{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.register-main .cajita{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.register-main .cajita input{
+    margin-top: 2.5px;
+}
+
+.register-main .cajita img{
+    border-radius: 50%;
+}
+.register-main .register-box-3{
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    }
+.register-main .register-box-3 .cajita{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 60px;
+    margin-top: 10px;
+    
+}
+
+.register-main .register-box-2 label{
+        padding-right: 70px;
+        padding-bottom: 10px;
+    }
+
+    .register-main .register-box-3 label{
+        padding-left: 30px;
+        padding-bottom: 40px;
+    }
+
+  
+        
+        .register-main .register-box-4 input{
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        .botonera {
+            margin-bottom: 60px;
+            background-color: var(--celeste);
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 10px;
+            height: 50px;
+        }
+        
+.botonera input{
+    padding-top: 5px;
+    color: var(--celeste);
+    border: none;
+    border: 20px;
+    cursor: pointer;
+}
+
+        .botonera a{
+            margin-bottom: 20px;
+            color: white;
+            padding-top: 20px;
+            
+        }
+
+        .botonera p{
+            align-items: center;
+        }
+
+        
